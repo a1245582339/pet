@@ -1,0 +1,94 @@
+@import '~antd/dist/antd.css';
+#root{
+	height: 100%;
+}
+.App {
+  text-align: left;
+}
+.admin-title{
+	float: left;
+	width: 150px;
+	height: 30px;
+	line-height: 31px;
+	margin: 16px 24px 16px 0;
+	color: #fff;
+	font-size: 18px;
+}
+
+.wrap{
+	width: 100%;
+	height: 100%;
+	background-image: url(https://gw.alipayobjects.com/zos/rmsportal/TVYTbAXWheQpRcWDaDMu.svg);
+    background-repeat: no-repeat;
+    background-position: center 110px;
+    background-size: 100%;
+}
+.login-form {
+	padding-top: 150px; 
+	margin: 0 auto;
+	max-width: 300px;
+}
+.login-title{
+	height: 30px;
+	margin-bottom: 20px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 20px;
+}
+.login-form-forgot {
+	float: right;
+}
+.login-form-button {
+	width: 100%;
+}
+.register-btn,.login-btn{
+	float: right;
+}
+.edit-input-label{
+	display: inline-block;
+	padding: 6px 0;
+}
+.pet-img-uploader{
+	display: inline-block;
+}
+.pet-img-uploader-add{
+	display: initial;
+}
+.pet-img-uploader,.pet-image{
+    width: 104px;
+	height: 104px;
+	margin-right: 10px; 
+}
+.inner-login-form{
+	padding-top: 20px; 
+}
+
+.logo{
+	height: 18px;
+ 	/* background: rgba(255,255,255,.2); */
+	margin: 16px;
+	color: #fff;
+	text-align: left;
+	font-size: 18px;
+}
+.menu-item{
+	display: inline-block!important;
+}
+
+.handle-btn {
+	position: relative;
+	z-index: 100;
+	float: right;
+	margin-bottom: 16px;
+}
+.not-handle {
+	cursor:not-allowed;
+}
+.ant-upload{
+	float: left;
+}
+.change-password{
+	position: absolute;
+	top: -7px;
+	left: 306px;
+}

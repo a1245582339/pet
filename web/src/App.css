@@ -1,0 +1,166 @@
+@import '~antd/dist/antd.css';
+#root{
+	height: 100%;
+}
+.App {
+ 	text-align: left;
+}
+.search{
+	width: 40%;
+}
+.slogan{
+	height: 80px;
+	line-height: 80px;
+	font-size: 26px;
+	padding: 0 126px;
+	background-color: #3e90f7;
+	color: #fff;
+}
+.header{
+	height: 50px;
+	padding: 0 126px;
+	background-color: #fff;
+}
+.pet-category{
+	padding-top: 20px;
+	border-bottom: 2px solid #3e90f7;
+}
+.pet-category-name{
+	color: #3e90f7;
+	font-size: 28px;
+	padding-left: 20px;
+	line-height: 42px;
+}
+.pet-category-name .more{
+	float: right;
+	font-size: 14px;
+	margin-right: 63px;
+}
+.pet-category-name Avatar{
+	vertical-align: middle;
+}
+.no-data-desc{
+	text-align: center;
+	padding-top: 100px;
+	font-size: 30px;
+	color: #eee;
+}
+.admin-title{
+	float: left;
+	width: 150px;
+	height: 30px;
+	line-height: 31px;
+	margin: 16px 24px 16px 0;
+	color: #fff;
+	font-size: 18px;
+}
+.ant-layout-header{
+	position: relative;
+}
+.search-wrap{
+	position: absolute;
+    top: 14px;
+    right: 0;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    margin-right: 130px;
+    cursor: pointer;
+    color: #fff;
+}
+.search-wrap input{
+	width: 320px;
+    margin-right: 10px;
+}
+.admin-layout{
+	position: absolute;
+    top: 0px;
+    right: 0;
+    display: inline-block;
+    height: 50px;
+    padding: 0 30px;
+    line-height: 50px;
+    margin-right: 100px;
+    cursor: pointer;
+    color: #000;
+}
+.wrap{
+	width: 100%;
+	height: 100%;
+	background-image: url(https://gw.alipayobjects.com/zos/rmsportal/TVYTbAXWheQpRcWDaDMu.svg);
+    background-repeat: no-repeat;
+    background-position: center 110px;
+    background-size: 100%;
+}
+.login-form {
+	padding-top: 150px; 
+	margin: 0 auto;
+	max-width: 300px;
+}
+.login-title{
+	height: 30px;
+	margin-bottom: 20px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 20px;
+}
+.login-form-forgot {
+	float: right;
+}
+.login-form-button {
+	width: 100%;
+}
+.register-btn,.login-btn{
+	float: right;
+}
+.edit-input-label{
+	display: inline-block;
+	padding: 6px 0;
+}
+.pet-img-uploader,.pet-image{
+    width: 128px;
+	height: 128px;
+}
+.inner-login-form{
+	padding-top: 20px; 
+}
+
+.detail-wrap{
+	width: 60% ;
+	margin: 0 auto;
+}
+.detail-wrap .detail-list{
+	line-height: 30px;
+	padding: 5px 0;
+    margin: 10px 0;
+}
+.detail-wrap .detail-list span{
+	margin-right: 10px;
+}
+.ant-carousel{
+	width: 84%;
+	margin: 20px auto;
+}
+.ant-carousel .slick-slide {
+	text-align: center;
+	height: 360px;
+	overflow: hidden;
+	margin: 20px 0;
+	/* background: #3e90f7; */
+}
+.ant-carousel .slick-slide img{
+	display: inline-block;
+	height: auto;
+}
+
+.slick-dots button{
+	background: #3e90f7!important;
+}
+.slick-dots button.slick-active{
+	background: #000!important;
+}
+.change-password{
+	position: absolute;
+	top: -7px;
+	left: 306px;
+}
